@@ -1,0 +1,11 @@
+--- mcal/mcal.c.orig	Mon Mar 27 06:06:04 2000
++++ mcal/mcal.c	Fri May  3 22:50:02 2002
+@@ -65,7 +65,7 @@
+   int c;
+   CALATTR *attr=NULL;
+  // int digit_optind = 0;
+-  char *foldername;
++  char *foldername=NULL;
+   datetime_t startdate,enddate;
+   CALEVENT *event=NULL;
+   const char *months[]={NULL,"January","February","March","April","May","June","July","August","September","October","November","December"};

@@ -5,7 +5,7 @@ Version:	0.3
 Release:	1
 License:	GPL
 Group:		Applications
-Source0:	ftp://ftp.sourceforge.net/pub/sourceforge/libmcal/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/libmcal/%{name}-%{version}.tar.gz
 Patch0:		%{name}-segv.patch
 URL:		http://mcal.chek.com/
 BuildRequires:	libmcal-devel

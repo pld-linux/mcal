@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications
 Source0:	http://dl.sourceforge.net/libmcal/%{name}-%{version}.tar.gz
+# Source0-md5:	06e7a54ce84752194ce4b6f93fca67d6
 Patch0:		%{name}-segv.patch
 URL:		http://mcal.chek.com/
 BuildRequires:	libmcal-devel

@@ -20,7 +20,7 @@ Oparty o libmcal zamiennik programu cal.
 
 %prep
 %setup -q -n %{name}
-%patch -p1
+%patch0 -p1
 
 %build
 %{__make} \

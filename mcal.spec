@@ -1,5 +1,5 @@
 Summary:	libmcal powered cal replacement
-Summary(pl):	Oparty o libmcal zamiennik programu cal
+Summary(pl.UTF-8):   Oparty o libmcal zamiennik programu cal
 Name:		mcal
 Version:	0.3
 Release:	1
@@ -15,7 +15,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 libmcal powered cal replacement.
 
-%description -l pl
+%description -l pl.UTF-8
 Oparty o libmcal zamiennik programu cal.
 
 %prep
